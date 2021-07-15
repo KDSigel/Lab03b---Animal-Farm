@@ -28,20 +28,20 @@ catEl.addEventListener('click', () => {
 
 // trying key stuff 
 
-document.addEventListener("keydown", function(event) {
-  if (event.code === "KeyD") {
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'd') {
       dogSound.play();
   animalNameDisplay.textContent = 'D is for Dog';
 }});
 
-document.addEventListener("keydown", function(event) {
-    if (event.code === "KeyH") {
+document.addEventListener('keydown', function(event) {
+    if (event.key === "h") {
         horseSound.play();
     animalNameDisplay.textContent = 'H is for Horse';
 }});
 
-document.addEventListener("keydown", function(event) {
-    if (event.code === "KeyC") {
+document.addEventListener('keydown', function(event) {
+    if (event.key === "c") {
         catSound.play();
     animalNameDisplay.textContent = 'C is for Cat';
 }});
